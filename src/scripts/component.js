@@ -143,7 +143,7 @@ class projectcards extends HTMLElement {
     <div class="card-out">
         <a href="/MyPortfolio/src/projects/aer.html">
             <div class="card">
-                <div class="card-img"><img src="src/asset/images/card-images/aer-card.png" alt=""></div>
+                <div class="card-img"><img src="src/asset/images/card-images/aer-card-updated.png" alt=""></div>
                 <div class="info-card-context">
                     <div class="card-content">
                         <h3>AER</h3>
