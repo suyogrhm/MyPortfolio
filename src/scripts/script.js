@@ -11,32 +11,6 @@ window.addEventListener('scroll', function() {
 });
 
 // typing animation script
-// document.addEventListener('DOMContentLoaded', function() {
-//   const text = "Hi, I'm Kritin"; // Text to be typed
-//   const speed = 50; // Typing speed in milliseconds
-//   const element = document.getElementById('typing-text');
-//   let repeatInterval = 15000; // Repeat interval in milliseconds (15 seconds)
-
-//   function typeWriter() {
-//     let i = 0;
-//     element.innerHTML = ''; // Reset the text element
-//     function type() {
-//       if (i < text.length) {
-//         element.innerHTML += text.charAt(i);
-//         i++;
-//         setTimeout(type, speed);
-//       }
-//     }
-//     type(); // Start the typing animation
-//   }
-
-//   function repeatAnimation() {
-//     typeWriter(); // Start the animation
-//     setTimeout(repeatAnimation, repeatInterval); // Schedule next animation
-//   }
-
-//   repeatAnimation(); // Start the initial animation
-// });
 document.addEventListener('DOMContentLoaded', function() {
   const text = "Hi, I'm Kritin"; // Text to be typed
   const speed = 50; // Typing speed in milliseconds
