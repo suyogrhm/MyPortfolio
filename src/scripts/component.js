@@ -1,22 +1,3 @@
-// class navbar extends HTMLElement {
-//     constructor() {
-//         super();
-//         const navRoot = this.attachShadow({mode: 'open'});
-//         let nav = document.createElement('nav');
-//         nav.innerHTML = `
-//             <ul class="navigationitems">
-//                 <li class="navigationlist" id="hometext"><a href="http://home.html">Kri</a></li>
-//                 <li class="navigationlist"><a href="http://about.html">About</a></li>
-//                 <li class="navigationlist"><a href="http://timeline.html">Timeline</a></li>
-//                 <li class="navigationlist"><a href="http://projects.html">Projects</a></li>
-//                 <li class="navigationlist"><a href="http://contact.html">Contact Me</a></li>
-//             </ul>
-//         `
-//         navRoot.append(nav);
-
-//     }
-// }
-
 class navBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -36,9 +17,9 @@ class navBarInner extends HTMLElement {
         this.innerHTML = `
         <nav id="navbar">
             <ul class="navigationitems">
-                <li class="navigationlist"><a href="/../kriPortfolio">About Me</a></li>
-                <li class="navigationlist"><a href="/../kriPortfolio/#projects">Projects</a></li>
-                <li class="navigationlist"><a href="/../kriPortfolio/#timeline">Timeline</a></li>
+                <li class="navigationlist"><a href="/../MyPortfolio">About Me</a></li>
+                <li class="navigationlist"><a href="/../MyPortfolio/#projects">Projects</a></li>
+                <li class="navigationlist"><a href="/../MyPortfolio/#timeline">Timeline</a></li>
                 <li class="navigationlist"><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
@@ -50,7 +31,7 @@ class projectcards extends HTMLElement {
         this.innerHTML = `
         <div class="cards card-container">
     <div class="card-out">
-        <a href="/kriPortfolio/src/projects/universalOtt.html">
+        <a href="/MyPortfolio/src/projects/universalOtt.html">
             <div class="card">
                 <div class="card-img"><img src="src/asset/images/card-images/universalOtt-card.png" alt=""></div>
                 <div class="info-card-context">
@@ -64,7 +45,7 @@ class projectcards extends HTMLElement {
                             <p>User Experience</p>
                         </div>
                         <div class="card-link">
-                            <button><a href="/kriPortfolio/src/projects/universalOtt.html">View Project</a></button>
+                            <button><a href="/MyPortfolio/src/projects/universalOtt.html">View Project</a></button>
                         </div>
                     </div>
                 </div>
@@ -72,7 +53,7 @@ class projectcards extends HTMLElement {
         </a>
     </div>
     <div class="card-out">
-        <a href="/kriPortfolio/src/projects/moneyBip.html">
+        <a href="/MyPortfolio/src/projects/moneyBip.html">
             <div class="card">
                 <div class="card-img"><img src="src/asset/images/card-images/MoneyBip.png" alt=""></div>
                 <div class="info-card-context">
@@ -86,7 +67,7 @@ class projectcards extends HTMLElement {
                             <p>User Experience</p>
                         </div>
                         <div class="card-link">
-                            <button><a href="/kriPortfolio/src/projects/moneyBip.html">View Project</a></button>
+                            <button><a href="/MyPortfolio/src/projects/moneyBip.html">View Project</a></button>
                         </div>
                     </div>
                 </div>
@@ -94,7 +75,7 @@ class projectcards extends HTMLElement {
         </a>
     </div>
     <div class="card-out">
-        <a href="/kriPortfolio/src/projects/adTech.html">
+        <a href="/MyPortfolio/src/projects/adTech.html">
             <div class="card">
                 <div class="card-img"><img src="src/asset/images/card-images/gg-card.png" alt=""></div>
                 <div class="info-card-context">
@@ -108,7 +89,7 @@ class projectcards extends HTMLElement {
                             <p>User Experience</p>
                         </div>
                         <div class="card-link">
-                            <button><a href="/kriPortfolio/src/projects/adTech.html">View Project</a></button>
+                            <button><a href="/MyPortfolio/src/projects/adTech.html">View Project</a></button>
                         </div>
                     </div>
                 </div>
@@ -116,7 +97,7 @@ class projectcards extends HTMLElement {
         </a>
     </div>
     <div class="card-out">
-        <a href="/kriPortfolio/src/projects/signal.html">
+        <a href="/MyPortfolio/src/projects/signal.html">
             <div class="card">
                 <div class="card-img"><img src="src/asset/images/card-images/signal-card.png" alt=""></div>
                 <div class="info-card-context">
@@ -130,7 +111,7 @@ class projectcards extends HTMLElement {
                             <p>User Experience</p>
                         </div>
                         <div class="card-link">
-                            <button><a href="/kriPortfolio/src/projects/signal.html">View Project</a></button>
+                            <button><a href="/MyPortfolio/src/projects/signal.html">View Project</a></button>
                         </div>
                     </div>
                 </div>
@@ -138,7 +119,7 @@ class projectcards extends HTMLElement {
         </a>
     </div>
     <div class="card-out">
-        <a href="/kriPortfolio/src/projects/coherence.html">
+        <a href="/MyPortfolio/src/projects/coherence.html">
             <div class="card">
                 <div class="card-img"><img src="src/asset/images/card-images/coherence-card.png" alt=""></div>
                 <div class="info-card-context">
@@ -152,7 +133,7 @@ class projectcards extends HTMLElement {
                             <p>User Experience</p>
                         </div>
                         <div class="card-link">
-                            <button><a href="/kriPortfolio/src/projects/coherence.html">View Project</a></button>
+                            <button><a href="/MyPortfolio/src/projects/coherence.html">View Project</a></button>
                         </div>
                     </div>
                 </div>
@@ -160,7 +141,7 @@ class projectcards extends HTMLElement {
         </a>
     </div>
     <div class="card-out">
-        <a href="/kriPortfolio/src/projects/aer.html">
+        <a href="/MyPortfolio/src/projects/aer.html">
             <div class="card">
                 <div class="card-img"><img src="src/asset/images/card-images/aer-card.png" alt=""></div>
                 <div class="info-card-context">
@@ -174,7 +155,7 @@ class projectcards extends HTMLElement {
                             <p>User Experience</p>
                         </div>
                         <div class="card-link">
-                            <button><a href="/kriPortfolio/src/projects/aer.html">View Project</a></button>
+                            <button><a href="/MyPortfolio/src/projects/aer.html">View Project</a></button>
                         </div>
                     </div>
                 </div>
@@ -182,7 +163,7 @@ class projectcards extends HTMLElement {
         </a>
     </div>
     <div class="card-out hidden">
-        <a href="/kriPortfolio/src/projects/hamsak.html">
+        <a href="/MyPortfolio/src/projects/hamsak.html">
             <div class="card">
                 <div class="card-img"><img src="src/asset/images/card-images/hamsak-card.png" alt=""></div>
                 <div class="info-card-context">
@@ -196,7 +177,7 @@ class projectcards extends HTMLElement {
                             <p>User Experience</p>
                         </div>
                         <div class="card-link">
-                            <button><a href="/kriPortfolio/src/projects/hamsak.html">View
+                            <button><a href="/MyPortfolio/src/projects/hamsak.html">View
                                     Project</a></button>
                         </div>
                     </div>
@@ -225,7 +206,7 @@ class customBackButtons extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <div class="custom-button-container back-button">
-            <button class="custom-button"><a href="/kriPortfolio/index.html#projects">Back to Projects</a></button>
+            <button class="custom-button"><a href="/MyPortfolio/index.html#projects">Back to Projects</a></button>
         </div>
         `
     }
@@ -262,27 +243,6 @@ class footerCustomInnerPage extends HTMLElement {
     `
     }
 }
-// const navTemplate = document.createElement('template');
-// navTemplate.innerHTML = `
-//  <nav id="navbar">
-//     <ul class="navigationitems">
-//         <li class="navigationlist" id="hometext"><a href="http://home.html">Kri</a></li>
-//         <li class="navigationlist"><a href="http://about.html">About</a></li>
-//         <li class="navigationlist"><a href="http://timeline.html">Timeline</a></li>
-//         <li class="navigationlist"><a href="http://projects.html">Projects</a></li>
-//         <li class="navigationlist"><a href="http://contact.html">Contact Me</a></li>
-//     </ul>
-//  </nav>
-// `
-// class navBar extends HTMLElement {
-//     constructor() {
-//         super();
-//         const navRoot = this.attachShadow({mode: 'open'});
-//         let clone = navTemplate.content.cloneNode(true);
-//         navRoot.append(clone);
-
-//     }
-// }
 customElements.define('page-navbar', navBar);
 customElements.define('inner-page-navbar', navBarInner);
 customElements.define('project-cards', projectcards);
