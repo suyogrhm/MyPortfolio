@@ -29,7 +29,29 @@ class navBarInner extends HTMLElement {
 class projectcards extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <div class="cards card-container">
+<div class="cards card-container">
+    <div class="card-out">
+        <a href="/MyPortfolio/src/projects/adTech.html">
+            <div class="card">
+                <div class="card-img"><img src="src/asset/images/card-images/gg-card.png" alt=""></div>
+                <div class="info-card-context">
+                    <div class="card-content">
+                        <h3>Journey at GreedyGame</h3>
+                        <h4>8th February 2024</h4>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-info">
+                            <p>User Interface</p>
+                            <p>User Experience</p>
+                        </div>
+                        <div class="card-link">
+                            <button><a href="/MyPortfolio/src/projects/adTech.html">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
     <div class="card-out">
         <a href="/MyPortfolio/src/projects/universalOtt.html">
             <div class="card">
@@ -68,28 +90,6 @@ class projectcards extends HTMLElement {
                         </div>
                         <div class="card-link">
                             <button><a href="/MyPortfolio/src/projects/moneyBip.html">View Project</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="card-out">
-        <a href="/MyPortfolio/src/projects/adTech.html">
-            <div class="card">
-                <div class="card-img"><img src="src/asset/images/card-images/gg-card.png" alt=""></div>
-                <div class="info-card-context">
-                    <div class="card-content">
-                        <h3>Journey at GreedyGame</h3>
-                        <h4>8th February 2024</h4>
-                    </div>
-                    <div class="card-details">
-                        <div class="card-info">
-                            <p>User Interface</p>
-                            <p>User Experience</p>
-                        </div>
-                        <div class="card-link">
-                            <button><a href="/MyPortfolio/src/projects/adTech.html">View Project</a></button>
                         </div>
                     </div>
                 </div>
