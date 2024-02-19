@@ -125,7 +125,7 @@ class projectcards extends HTMLElement {
                 <div class="info-card-context">
                     <div class="card-content">
                         <h3>Coherence</h3>
-                        <h4>31st March 2019</h4>
+                        <h4>31st December 2021</h4>
                     </div>
                     <div class="card-details">
                         <div class="card-info">
